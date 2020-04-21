@@ -18,6 +18,6 @@ app.get("/", (req, res) => {
 require("./app/routes/customer.routes.js")(app)
 
 //setting port
-app.listen(() => {
-    console.log("Server is running")
+app.listen(3000, () => {
+    console.log("Server is running on port 3000")
 })
